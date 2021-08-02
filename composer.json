@@ -20,10 +20,5 @@
     "minimum-stability": "dev",
     "require-dev": {
         "phpunit/phpunit": "9"
-    },
-    "config": {
-	"platform": {
-	    "php":"7.4"
-	}
     }
 }
