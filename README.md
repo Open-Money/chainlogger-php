@@ -22,7 +22,7 @@ Set minimum stability to dev
 Then
 
 ```
-composer require openmoney/chainlogger-php ^0.1.1
+composer require openmoney/chainlogger-php dev-main
 ```
 
 After requiring via composer, you can include the Chain Logger on your projects as following
