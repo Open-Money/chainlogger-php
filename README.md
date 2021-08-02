@@ -1,5 +1,8 @@
 # chainlogger-php
 
+[![PHP](https://github.com/web3p/web3.php/actions/workflows/php.yml/badge.svg)](https://github.com/web3p/web3.php/actions/workflows/php.yml)
+[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/web3p/web3.php/blob/master/LICENSE)
+
 Simple PHP package for using Chain Logger on omChain Jupiter
 
 ### ABI:
