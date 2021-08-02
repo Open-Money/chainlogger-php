@@ -8,10 +8,21 @@ on:
 
 jobs:
   build:
-
+    strategy:
+      matrix:
+        php-version: ["7.4"]
     runs-on: ubuntu-latest
 
     steps:
+    - name: Setup PHP
+      uses: shivammathur/setup-php@v2
+      with:
+          php-version: ${{ matrix.php-version }}
+          
+    - name: PHP version
+      run: |
+        php --version
+          
     - uses: actions/checkout@v2
 
     - name: Validate composer.json and composer.lock
