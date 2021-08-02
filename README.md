@@ -13,7 +13,13 @@ Simple PHP package for using Chain Logger on omChain Jupiter
 
 ## Installation
 
-```composer require openmoney/chainlogger-php```
+Set minimum stability to dev
+
+```"minimum-stability": "dev"```
+
+Then
+
+```composer require openmoney/chainlogger-php ^0.1.1```
 
 After requiring via composer, you can include the Chain Logger on your projects as following
 
