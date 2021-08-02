@@ -1,0 +1,24 @@
+{
+    "name": "openmoney/chainlogger-php",
+    "description": "Chain Logger php library",
+    "type": "library",
+    "require": {
+        "sc0vu/web3.php": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ChainLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "osman kuzucu",
+            "email": "osman@omlira.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
