@@ -110,7 +110,7 @@ class Logger extends Contract
         ];
 
         $txHash = null;
-        $this->contract->send('registerVendor',$parameters,function($err,$result) use (&$txHash) {
+        $this->sendContract->send('registerVendor',$parameters,function($err,$result) use (&$txHash) {
             if($err !== null) {
                 throw $err;
             }
@@ -139,7 +139,7 @@ class Logger extends Contract
         ];
 
         $txHash = null;
-        $this->contract->send('registerProject',$parameters,function($err,$result) use (&$txHash) {
+        $this->sendContract->send('registerProject',$parameters,function($err,$result) use (&$txHash) {
             if($err !== null) {
                 throw $err;
             }
