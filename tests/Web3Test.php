@@ -4,7 +4,6 @@ namespace Test;
 
 use PHPUnit\Framework\TestCase;
 use ChainLogger\Logger as Logger;
-use ChainLogger\Hasher as Hasher;
 
 class Web3Test extends TestCase
 {
