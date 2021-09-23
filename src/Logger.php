@@ -4,7 +4,6 @@ namespace ChainLogger;
 
 use ChainLogger\Contract as Contract;
 use ChainLogger\Parser as Parser;
-use ChainLogger\Parameters as Parameters;;
 use ChainLogger\Hasher as Hasher;
 
 class Logger extends Contract
